@@ -27,6 +27,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: robertpcfpl/angular-calc
+          repository: markaw/cidotnet
           tags: latest
           dockerfile: ./Dockerfile
