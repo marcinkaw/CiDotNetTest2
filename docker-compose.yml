@@ -1,14 +1,15 @@
 version: '3.4'
 
 services:
-  cidotnet.angularcalc:
+  cidotnetangularcalc:
     depends_on:
-      - "cidotnet.angular.app"
-    image: markaw/cidotnet-api
+      - "cidotnetangularapp"
+    image: markaw/cidotnet-api:latest
     ports:
-      - "4250:80" 
-  cidotnet.angular.app:
-    image: markaw/cidotnet-app
+      - "30003:80" 
+
+  cidotnetangularapp:
+    image: markaw/cidotnet-app:latest
     ports:
-      - "4200:80" 
+      - "30002:80" 
 
