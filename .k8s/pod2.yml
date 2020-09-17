@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: cidotnet-api-rc
+
+spec:
+  replicas: 1
+  selector: 
+    app: cidotnet-api
+  template:
+    metadata:
+      labels:
+        app: cidotnet-api
+    spec:
+      containers:
+        - name: cidotnet-api-pod
+          image: markaw/cidotnet-api
+          ports:
+            - containerPort: 80
