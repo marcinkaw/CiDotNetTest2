@@ -11,7 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CiDotNet.Calc.Test", "CiDot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CiDotNet.AngularCalc", "CiDotNet.AngularCalc\CiDotNet.AngularCalc.csproj", "{D116EC68-6230-4875-BB4F-5DBAAD51100F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiDotNet.GpwBenchmarkplWibor", "CiDotNet.GpwBenchmarkplWibor\CiDotNet.GpwBenchmarkplWibor.csproj", "{42E8A014-3624-4CA9-AAA8-E81653413121}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CiDotNet.GpwBenchmarkplWibor", "CiDotNet.GpwBenchmarkplWibor\CiDotNet.GpwBenchmarkplWibor.csproj", "{42E8A014-3624-4CA9-AAA8-E81653413121}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE3B161E-0ADA-4585-8403-EF1EDED3EBAF}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\docker-image-build.yml = .github\workflows\docker-image-build.yml
+		Dockerfile = Dockerfile
+		Dockerfile-angular = Dockerfile-angular
+		.github\workflows\dotnet-core.yml = .github\workflows\dotnet-core.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
