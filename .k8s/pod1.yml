@@ -4,7 +4,7 @@ metadata:
   name: cidotnet-rc
 
 spec:
-  replicas: 2
+  replicas: 1
   selector: 
     app: cidotnet-app
   template:
